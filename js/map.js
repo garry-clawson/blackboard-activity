@@ -103,49 +103,49 @@ $(".closeBtn").click(function(){
 //Useful links to activties
 function displayCup() {
 
-    document.getElementById("results").textContent = "Task 1: They only go one way"
+    document.getElementById("results").textContent = "Task 1: Add clue"
 
 }
 
 function displayTable() {
 
-    document.getElementById("results").textContent = "Task 2: This task is golden!"
+    document.getElementById("results").textContent = "Task 2: Add clue"
 
 }
 
 function displayMonitor() {
 
-    document.getElementById("results").textContent = "Task 3: That's a first!"
+    document.getElementById("results").textContent = "Task 3: Add clue"
 
 }
 
 function displayLamphead() {
 
-    document.getElementById("results").textContent = "Task 4: Need to fight for this answer!"
+    document.getElementById("results").textContent = "Task 4: Add clue"
 
 }
 
 function displayFlatBook3() {
 
-    document.getElementById("results").textContent = "Task 5: Don't retire yet!"
+    document.getElementById("results").textContent = "Task 5: Add clue"
 
 }
 
 function displayPenstand() {
 
-    document.getElementById("results").textContent = "Task 6: The answer to everything!"
+    document.getElementById("results").textContent = "Task 6: Add clue"
 
 }
 
 function displaySlantBook() {
 
-    document.getElementById("results").textContent = "Task 7: Half of a character!"
+    document.getElementById("results").textContent = "Task 7: Add clue"
 
 }
 
 function displayWindow() {
 
-    document.getElementById("results").textContent = "Task 8: It's not a binary choice!"
+    document.getElementById("results").textContent = "Task 8: Add clue"
 
 }
 
@@ -160,25 +160,25 @@ function displayTrophy() {
 //Links for interest with no activities
 function displayFloor() {
 
-    document.getElementById("results").textContent = "No time for sitting down !"
+    document.getElementById("results").textContent = "Add hint or tip 1"
 
 }
 
 function displayFlatBook() {
 
-    document.getElementById("results").textContent = "This is just a book"
+    document.getElementById("results").textContent = "Add hint or tip 2"
 
 }
 
 function displayKnob1() {
 
-    document.getElementById("results").textContent = "This is just a knob"
+    document.getElementById("results").textContent = "Add hint or tip 3"
 
 }
 
 function displayKnob2() {
 
-    document.getElementById("results").textContent = "This is just a knob"
+    document.getElementById("results").textContent = "Add hint or tip 4"
 }
 
 function displayBin() {
