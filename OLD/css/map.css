@@ -2,12 +2,8 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: #2d5986;
-	width: auto;
-	height: auto;
+    background: #444;
 }
-
-
 
 .wrapper{
     position: absolute;
@@ -191,58 +187,35 @@ body{
     top: 11rem;
 }
 
-.name{
-  height: 50px;
-  width: 50px;
-  background-color: #2d5986;
-  top: 52%;
-  left: 50%;
-
-}
-
-
 .computer{
     position: absolute;
-    width:1850px;
-    height: 825px;
+    width: 160px;
+    height: 125px;
     background: #222;
     transform: translate(-50%, -50%);
-    top: 52%;
+    top: 35%;
     left: 50%;
     border-radius: 10%;
 }
 .computer::before{
     content: "";
     position: absolute;
-    width: 1700px;
-    height: 725px;
+    width: 136px;
+    height: 87px;
     background: #aaa;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-	border-radius: 5%;
-      
+    z-index:1;   
 }
 .computer::after{
     content: "";
     position: absolute;
-	height: 35px;
-	width: 35px;
-	background-color: #aaa;
-	border-radius: 50%;
-    top: 95%;
+    width: 10px;
+    height: 15px;
+    background: #222;
+    top: 100%;
     left: 50%;
-}
-
-.computer::butn{
-    content: "";
-    position: absolute;
-	height: 35px;
-	width: 35px;
-	background-color: #aaa;
-	border-radius: 50%;
-    top: 95%;
-    left: 88%;
 }
 
 
