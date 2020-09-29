@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #444;
+    color: #fff;
+    /* font-family: 'Montserrat', sans-serif; */
+	  background-color: #2d5986;
+  user-select: none; //allows a user to selcet or not sleect the text
+}
+div.question {
+  position: absolute;
+  line-height: 2;
+  text-align: center;
+  top: 5%;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  color: white;
+  display: inline-block;
+  font-family: 'Major Mono Display', monospace;
+  font-weight: bold;
+}
+#quote {
+  position: relative;
+  color:#fff;
+  font-family: 'Major Mono Display', monospace;
+  font-weight: bold;
+  font-size:25px;
+  margin-top:10px;
+  text-align:center;
+  cursor:auto;
+}
+
+#directions {
+  position: relative;
+  color:#fff;
+  font-family: 'Major Mono Display', monospace;
+  font-weight: bold;
+  font-size:18px;
+  margin-top:10px;
+  text-align:center;
+  cursor:auto;
+}
+input {
+  position: absolute;
+  bottom: 5%;
+  width: 90%;
+  right: 5%;
+  left: 5%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+::placeholder{
+  color: black;
+}
+
+#results{
+  position: absolute;
+  line-height: 2;
+  text-align: center;
+  bottom: 15%;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  color: white;
+  display: inline-block;
+  font-family: 'Major Mono Display', monospace;
+  font-weight: bold;
+  z-index: 5;
+  font-size: 20px;
+}
+
+
+:root {
+  --text-color: #111111;
+}
+
+#math-puzzle-container div {
+  color: var(--white);
+}
+
+#math-puzzle-container button {
+  line-height: 100px;
+  width: 100px;
+  border-radius: 40%;
+  border: 4px solid var(--white);
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--white);
+  margin: 2px 0 0 2px;
+}
+
+#math-puzzle-main {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 50% 50%;
+}
+
+#math-puzzle-keypad {
+  grid-column: 1;
+  width: 40%;
+  margin-left: 10%;
+  border: 2px solid #fff;
+  background-color:#8cb3d9;
+  
+}
+
+#math-puzzle-sum {
+  grid-column: 2;
+  margin-right: 14%;
+}
+
+.math-puzzle-numberButton {
+  background-color: transparent;
+}
+
+.math-puzzle-zeroButton {
+  background-color: transparent;
+}
+
+.math-puzzle-signButton {
+  background-color: transparent;
+}
+
+.math-puzzle-position {
+  text-align: center;
+  position: relative;
+  line-height: 65px;
+  font-size: 30px;
+  padding: .5px;
+  font-weight: bold;
+  border-bottom: 1px solid var(--white);
+    font-family: 'Major Mono Display', monospace;
+  font-weight: bold;
+}
+.mpp
+{
+	
+	 float: left;
+	
+	
+	
+}
+#math-puzzle-message {
+  line-height: normal;
+  font-size: 1.5em;
+    font-family: 'Major Mono Display', monospace;
+  font-weight: bold;
+}
+

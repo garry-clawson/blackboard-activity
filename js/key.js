@@ -75,7 +75,7 @@ function score_quiz()
 	  document.getElementById("demo").innerHTML = "Well Done! Wait 3 seconds to continue..." ;
 	  
      pageRedirect();
-    }} 
+}} 
 	
 
 var myVar;
