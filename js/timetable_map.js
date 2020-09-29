@@ -67,22 +67,22 @@ $(".closeBtn").click(function(){
 //Links for activities
 function displayClock() {
 
-    document.getElementById("results").textContent = "Always check me!"
+    document.getElementById("results").textContent = "Task 2: Always check me!"
 }
 
 function displayCalendar() {
 
-    document.getElementById("results").textContent = "You'll need this!"
+    document.getElementById("results").textContent = "Task 3: You'll need this!"
 }
 
 function displayTable() {
 
-    document.getElementById("results").textContent = "Table Hint:"
+    document.getElementById("results").textContent = "Task 4: Table Hint:"
 }
 
 function displayCupboard() {
 
-    document.getElementById("results").textContent = "You'll need to look closely!"
+    document.getElementById("results").textContent = "Task 1: You'll need to look closely!"
 }
 
 function displayBin() {

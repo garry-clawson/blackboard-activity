@@ -29,7 +29,7 @@ function roomsComplete() {
 
             if(timetable == 'complete')
             {
-                document.getElementById("timetable_lock").src = "assets/unlock.png";
+                document.getElementById("timetable_lock").src = "assets/closed.png";
             }
 
             // if(room2 == 'complete')
