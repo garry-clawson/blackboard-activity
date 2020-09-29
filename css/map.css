@@ -7,8 +7,6 @@ body{
 	height: auto;
 }
 
-
-
 .wrapper{
     position: absolute;
     top: 150px;
@@ -191,13 +189,16 @@ body{
     top: 11rem;
 }
 
-.name{
-  height: 50px;
-  width: 50px;
-  background-color: #2d5986;
-  top: 52%;
-  left: 50%;
 
+.centerImage {
+
+  position: absolute;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  left: 10%;
+  top: 15%
 }
 
 
@@ -211,19 +212,9 @@ body{
     left: 50%;
     border-radius: 10%;
 }
+
+
 .computer::before{
-    content: "";
-    position: absolute;
-    width: 1700px;
-    height: 725px;
-    background: #aaa;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-	border-radius: 5%;
-      
-}
-.computer::after{
     content: "";
     position: absolute;
 	height: 35px;
@@ -233,6 +224,183 @@ body{
     top: 95%;
     left: 50%;
 }
+.screen{
+    position: absolute;
+    width: 1700px;
+    height: 725px;
+    background: #aaa;
+    transform: translate(-50%, -50%);
+    top: 52%;
+    left: 50%;
+	border-radius: 5%;
+      
+}
+
+
+
+.name{
+  position: absolute;
+    width: 300px;
+    height: 50px;
+    background: #fff;
+    transform: translate(-50%, -50%);
+    top: 18%;
+    left: 82.6%;
+	border-radius: 5%;
+     
+}
+
+.name:hover{
+	background-color: #8cb3d9;
+}
+
+
+
+.tabs{
+	position: absolute;
+	width: 650px;
+    height: 60px;
+    background: #fff;
+    transform: translate(-50%, -50%);
+    top: 26%;
+    left: 73.4%;
+	border-radius: 5%; 
+
+}
+
+.tabs:hover{
+	background-color: #8cb3d9;
+}
+
+
+.myuni{
+    position: absolute;
+    width: 750px;
+    height: 60px;
+    background: #fff;
+    transform: translate(-50%, -50%);
+    top: 35%;
+    left: 29%;
+	border-radius: 5%; 
+
+}
+
+.myuni:hover{
+	background-color: #8cb3d9;
+}
+
+
+
+
+.frequentlinks{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    background: #fff;
+    transform: translate(-50%, -50%);
+    top: 58%;
+    left: 16%;
+	border-radius: 5%; 
+
+}
+
+.frequentlinks:hover{
+	background-color: #8cb3d9;
+}
+
+
+.mysite{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    background: #fff;
+    transform: translate(-50%, -50%);
+    top: 58%;
+    left: 39.5%;
+	border-radius: 5%; 
+
+}
+
+.mysite:hover{
+	background-color: #8cb3d9;
+}
+
+
+
+.records{
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    background: #fff;
+    transform: translate(-50%, -50%);
+    top: 52%;
+    left: 80%;
+	border-radius: 5%; 
+
+}
+
+.records:hover{
+	background-color: #8cb3d9;
+}
+
+.support{
+    position: absolute;
+    width: 650px;
+    height: 150px;
+    background: #fff;
+    transform: translate(-50%, -50%);
+    top: 66%;
+    left: 73.4%;
+	border-radius: 5%; 
+
+}
+
+.support:hover{
+	background-color: #8cb3d9;
+}
+
+
+
+
+
+
+.widgets{
+    position: absolute;
+    width: 1550px;
+    height: 50px;
+    background: #fff;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    left: 50%;
+	border-radius: 5%; 
+
+}
+
+.widgets:hover{
+	background-color: #8cb3d9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .computer::butn{
     content: "";
@@ -701,15 +869,15 @@ body{
   position: absolute;
   line-height: 2;
   text-align: center;
-  bottom: 40%;
+  bottom: 10%;
   left: 5%;
   right: 5%;
   width: 90%;
-  color: white;
+  color: black;
   display: inline-block;
   font-family: 'Major Mono Display', monospace;
   font-weight: bold;
-  z-index: 5;
+  z-index: 555;
   font-size: 20px;
 }
 
@@ -730,8 +898,20 @@ body{
     max-height: 50px;
     color: white;
     font-family: 'Major Mono Display', monospace;
+	position: relative;
+	left: 42%;
+
 
 }
+
+.lockcontainer
+{
+	 float: left;
+	 padding: .5px;
+	 padding-right: 10px;
+}
+
+
 
 /* Pop up to show the the winner vidoe when completed all taskts*/
 .completedOverlay{
