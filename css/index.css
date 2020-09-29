@@ -36,6 +36,14 @@ html, body {
     right: 0;
     z-index: 1;
 }
+
+.timetable_lock{
+    position: absolute;
+    top:-75px;
+    left: 25px;
+}
+
+
     
 /*1st Door Entrance to Timetables*/
 
