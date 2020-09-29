@@ -124,7 +124,7 @@ function getAnswer() {
         wellDone = "Congratulations you've completed this task!";
         document.getElementById("results").innerHTML = wellDone; //inserts 'text' into the yourscore ID eleme
         
-        localStorage.setItem("room1", "complete");
+        localStorage.setItem("timetable_room2", "complete");
     };
 }
 

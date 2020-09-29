@@ -46,11 +46,13 @@ body{
 }
 
 .fillhover:hover{
-    fill: red;
+    fill: orange;
 }
 
 
-
+.clearlocks:hover{
+    fill: red;
+}
 
 
 
@@ -58,7 +60,7 @@ body{
   position: absolute;
   line-height: 2;
   text-align: center;
-  bottom: 40%;
+  bottom: 15%;
   left: 5%;
   right: 5%;
   width: 90%;
