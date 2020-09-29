@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="viewport" content="width=device-width"><link rel="author" href="https://google.com/+natewiley">
+	<link rel="stylesheet" href="css/room3.css">
+	<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" rel="stylesheet">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+	<title>Task 3</title>
+
+</head>
+
+
+<body> 
+
+
+<a href="map.html"><img src="assets/home.png" style="float: right; width: 40px; height: auto;"></a>
+
+<div class="question"> 
+<div>Puzzle 3:</div>
+<br>
+<p id="quote">My oh my...Where can you find the policy on authorised absences? <br><span style="font-size:18px;"><br>Directions: This task will get you to guess a word, letter by letter.<br>The word you seek will be your clue to answering the question.</span><p></div>
+  
+</div>
+
+        <div id="wrapper">
+            <p class="hint"></p>
+            <div id="word-lines"></div>
+            <input class="input-field" id="input-field" type="text" maxlength="1" autofocus autocomplete="off">
+            <button id="button-guess">Guess</button>
+            <p id="lives"></p>
+            <div id="wrong-letters">
+                <p class="quote">Wrong letters:</p>
+                <h6 class="wrong"></h6>
+            </div>
+           
+        </div>
+
+
+
+
+
+
+<div id="results"><p></p></div> 
+
+
+<p id="demo"></p>
+<form ID="quiz3" name="quiz3">
+  <input class="input" type="text" name="answer3" ID="answer3" placeholder="Check Answer.." onkeyup="score_quiz ()"> 
+</form> 
+
+
+</body>
+
+<script src = "js/room3.js"></script>
+
+</html>
