@@ -53,14 +53,14 @@ html, body {
     background-color: black;
     position: absolute;
     bottom: 200px;
-    left: calc(20% - 25px);
+    left: calc(25% - 25px);
     z-index: 1;
 }
   
 .surprize1 {
 position: absolute;
 bottom: 200px;
-left: calc(20% - 15px );
+left: calc(25% - 15px );
 width: 20px;
 height: 30px;
 z-index: 1;
@@ -73,7 +73,7 @@ z-index: 1;
     background-color: #e67e22;
     position: absolute;
     bottom: 200px;
-    left: calc(20% - 25px);
+    left: calc(25% - 25px);
     transform-origin: center right;
     transform: rotateY(30deg) skewY(-5deg);
     z-index: 2;
@@ -102,7 +102,7 @@ animation: openDoor 2s 0.1s infinite;
     background-color: black;
     position: absolute;
     bottom: 200px;
-    left: calc(40% - 25px);
+    left: calc(50% - 25px);
     z-index: 1;
 }
 
@@ -112,7 +112,7 @@ animation: openDoor 2s 0.1s infinite;
     background-color: red;
     position: absolute;
     bottom: 200px;
-    left: calc(40% - 25px);
+    left: calc(50% - 25px);
     transform-origin: center right;
     transform: rotateY(30deg) skewY(-5deg);
     z-index: 2;
@@ -134,7 +134,7 @@ animation: openDoor 3s 0.1s infinite;
 .surprize2 {
     position: absolute;
     bottom: 200px;
-    left: calc(40% - 15px );
+    left: calc(50% - 15px );
     width: 20px;
     height: 30px;
     z-index: 1;
@@ -147,7 +147,7 @@ animation: openDoor 3s 0.1s infinite;
     background-color: black;
     position: absolute;
     bottom: 200px;
-    left: calc(60% - 25px);
+    left: calc(75% - 25px);
     z-index: 1;
 }
 
@@ -157,7 +157,7 @@ animation: openDoor 3s 0.1s infinite;
     background-color: green;
     position: absolute;
     bottom: 200px;
-    left: calc(60% - 25px);
+    left: calc(75% - 25px);
     transform-origin: center right;
     transform: rotateY(30deg) skewY(-5deg);
     z-index: 2;
@@ -179,61 +179,17 @@ animation: openDoor 2s 0.3s infinite;
 .surprize3 {
     position: absolute;
     bottom: 200px;
-    left: calc(60% - 15px );
+    left: calc(75% - 15px );
     width: 20px;
     height: 30px;
     z-index: 1;
 }
 
-/*4th Door Entrance to Timetables*/
-.entrance4 {
-    width: 50px;
-    height: 80px;
-    background-color: black;
-    position: absolute;
-    bottom: 200px;
-    left: calc(80% - 25px);
-    z-index: 1;
-}
-
-.door4 {
-    width: 50px;
-    height: 80px;
-    background-color: gold;
-    position: absolute;
-    bottom: 200px;
-    left: calc(80% - 25px);
-    transform-origin: center right;
-    transform: rotateY(30deg) skewY(-5deg);
-    z-index: 2;
-    
-animation: openDoor 1s 0.3s infinite;
-    }
-
-
-.handle4 {
-    width: 4px;
-    height: 4px;
-    background-color: #ecf0f1;
-    position: absolute;
-    top: 35px;
-    left: 2px;
-    z-index: 3;
-}
-
-.surprize4 {
-    position: absolute;
-    bottom: 200px;
-    left: calc(80% - 15px );
-    width: 20px;
-    height: 30px;
-    z-index: 1;
-}
 
 /*Door signs above entrances*/
 .doorSigns{
     text-align: center;
-    width: 100px;
+    width: 150px;
     height: 20px;
     font-family: 'Raleway', sans-serif;
     color: white;
@@ -257,8 +213,3 @@ animation: openDoor 1s 0.3s infinite;
     right: 30px;
 }
 
-.sign4{
-    position: relative;
-    bottom: 100px;
-    right: 30px;
-}

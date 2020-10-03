@@ -3,22 +3,22 @@
 $(function()
 {
     var tileSize, i, blank, blankTile, par = $('#cover'), bTileIndex, neighbourTiles = [], nLen, ind, imgUrls = 
-    ['assets/timetable/timetable_001.jpg',
-    'assets/timetable/timetable_002.jpg',
-    'assets/timetable/timetable_003.jpg',
-    'assets/timetable/timetable_004.jpg',
-    'assets/timetable/timetable_005.jpg',
-    'assets/timetable/timetable_006.jpg',
-    'assets/timetable/timetable_007.jpg',
-    'assets/timetable/timetable_008.jpg',
-    'assets/timetable/timetable_009.jpg',
-    'assets/timetable/timetable_010.jpg',
-    'assets/timetable/timetable_011.jpg',
-    'assets/timetable/timetable_012.jpg',
-    'assets/timetable/timetable_013.jpg',
-    'assets/timetable/timetable_014.jpg',
-    'assets/timetable/timetable_015.jpg',
-    'assets/timetable/timetable_016.jpg'];
+    ['../assets/timetable/timetable_001.jpg',
+    '../assets/timetable/timetable_002.jpg',
+    '../assets/timetable/timetable_003.jpg',
+    '../assets/timetable/timetable_004.jpg',
+    '../assets/timetable/timetable_005.jpg',
+    '../assets/timetable/timetable_006.jpg',
+    '../assets/timetable/timetable_007.jpg',
+    '../assets/timetable/timetable_008.jpg',
+    '../assets/timetable/timetable_009.jpg',
+    '../assets/timetable/timetable_010.jpg',
+    '../assets/timetable/timetable_011.jpg',
+    '../assets/timetable/timetable_012.jpg',
+    '../assets/timetable/timetable_013.jpg',
+    '../assets/timetable/timetable_014.jpg',
+    '../assets/timetable/timetable_015.jpg',
+    '../assets/timetable/timetable_016.jpg'];
 
     function moveImage()
     {
