@@ -67,24 +67,28 @@ function angle(cx, cy, ex, ey) {
   return theta;
 }
 
+
+
 function score_quiz()
 {
    var myVar;
   answer1=document.quiz1.answer1.value;
-  if  (answer1=="ict@lincoln.ac.uk"){
-	  document.getElementById("demo").innerHTML = "Well Done! Wait 3 seconds to continue..." ;
-	  
-     pageRedirect();
-}} 
-	
+  if  (answer1 != "ict@lincoln.ac.uk"){
+      document.getElementById('answer1').style.backgroundColor = "red"; //when answer is correct turn green
+  } 
+  else{
+        document.getElementById('answer1').style.backgroundColor = "green"; //when answer is correct turn green
+    document.getElementById("results").innerHTML = "Well Done! You've completed this task" ;
+    localStorage.setItem("rm1task1", "complete"); 
+
+  }
+} 
+
+
 
 var myVar;
 
 function pageRedirect() {
-	
-	
-	
-	
 	
   myVar = setTimeout(alertFunc, 3000);
 }

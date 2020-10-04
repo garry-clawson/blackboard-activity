@@ -3,35 +3,35 @@ window.onload = roomsComplete;
 
 function roomsComplete() {
            
-            var timetable_room1 = localStorage.getItem("timetable_room1");
-            var timetable_room2 = localStorage.getItem("timetable_room2");
-            var timetable_room3 = localStorage.getItem("timetable_room3");
-            var timetable_room4 = localStorage.getItem("timetable_room4");
+            var rm1_room1 = localStorage.getItem("rm1task1");
+            var rm1_room2 = localStorage.getItem("rm1task2");
+            var rm1_room3 = localStorage.getItem("rm1task3");
+            var rm1_room4 = localStorage.getItem("rm1task4");
 
-            if(timetable_room1 == 'complete')
+            if(rm1_room1 == 'complete')
             {
                 document.getElementById("imglock1").src = "assets/unlock.png";
             }
 
-            if(timetable_room2 == 'complete')
+            if(rm1_room2 == 'complete')
             {
                 document.getElementById("imglock2").src = "assets/unlock.png";
             }
 
-            if(timetable_room3 == 'complete')
+            if(rm1_room3 == 'complete')
             {
                 document.getElementById("imglock3").src = "assets/unlock.png";
             }
 
-            if(timetable_room4 == 'complete')
+            if(rm1_room4 == 'complete')
             {
                 document.getElementById("imglock4").src = "assets/unlock.png";
             }
 
             // //Shows room lock as green if all tasks have been completed
             // if(room1 == 'complete' && room2 == 'complete' && room3 == 'complete' && room4 == 'complete'){
-            if(timetable_room1 == 'complete'){
-                localStorage.setItem("timetable", "complete");
+            if(rm1_room1 == 'complete'){
+                localStorage.setItem("room1", "complete");
             }
         }
 
@@ -39,11 +39,11 @@ function roomsComplete() {
 //clears the locks form local storage
 function clearLocks() {
 
-localStorage.removeItem("timetable_room1");
-localStorage.removeItem("timetable_room2");
-localStorage.removeItem("timetable_room3");
-localStorage.removeItem("timetable_room4");
-localStorage.removeItem("timetable");
+localStorage.removeItem("rm1task1");
+localStorage.removeItem("rm1task2");
+localStorage.removeItem("rm1task3");
+localStorage.removeItem("rm1task4");
+localStorage.removeItem("room1");
 
 location.reload();
 return false;
