@@ -22,25 +22,25 @@ window.onload = roomsComplete;
 
 function roomsComplete() {
            
-            var timetable = localStorage.getItem("timetable");
-            // var room2 = localStorage.getItem("timetable_room2");
-            // var room3 = localStorage.getItem("timetable_room3");
+            var room1 = localStorage.getItem("room1");
+            var room2 = localStorage.getItem("room2");
+            var room3 = localStorage.getItem("room3");
             // var room4 = localStorage.getItem("timetable_room4");
 
-            if(timetable == 'complete')
+            if(room1 == 'complete')
             {
-                document.getElementById("timetable_lock").src = "assets/closed.png";
+                document.getElementById("room1_lock").src = "assets/closed.png";
             }
 
-            // if(room2 == 'complete')
-            // {
-            //     document.getElementById("imglock2").src = "assets/unlock.png";
-            // }
+            if(room2 == 'complete')
+            {
+                document.getElementById("room2_lock").src = "assets/closed.png";
+            }
 
-            // if(room3 == 'complete')
-            // {
-            //     document.getElementById("imglock3").src = "assets/unlock.png";
-            // }
+            if(room3 == 'complete')
+            {
+                document.getElementById("room3_lock").src = "assets/closed.png";
+            }
 
             // if(room4 == 'complete')
             // {

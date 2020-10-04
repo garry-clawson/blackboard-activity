@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="css/rm1_task1.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+
+	<title>Lock</title>
+
+</head>
+
+
+<body> 
+
+<a href="room1_map.html"><img src="assets/home.png" style="float: right; width: 40px; height: auto;"></a>
+
+<div class="message"><b>Welcome to the Blackboard Escape Room!</div>
+<div class="message"><b>Your first task is to pick the lock, in order to get the clue to enter the first Blackboard room.</div>
+
+
+<div class="lock">
+  <div class="instruction">Move the mouse around the lock to find the pin position and hold it for 3 sec.</div>
+  <div class="lockpick">
+    <div class="fas fa-caret-right"></div>
+    <div class="fas fa-caret-left"></div>
+  </div>
+  <div class="fas fa-lock fa-3x"></div>
+  <div class="ring shake-constant"></div>
+  <ul class="stage">
+    <li data-deg="25" class="active"></li>
+    <li data-deg="180"></li>
+    <li data-deg="0"></li>
+	</ul>
+</div>
+
+
+<p id="demo"></p>
+
+<div id="results"><p></p></div> 
+
+<form ID="quiz1" name="quiz1">
+  <input type="text" name="answer1" ID="answer1" placeholder="Check Answer.." onkeyup="score_quiz()"> 
+</form>             
+
+
+
+
+
+
+<script src = "js/rm1_task1.js"></script>
+  
+
+
+</script>
+
+</html>
