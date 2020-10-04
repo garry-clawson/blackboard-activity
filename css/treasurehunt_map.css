@@ -9,7 +9,7 @@ body{
 
 /* Position of all SVG items*/
 
-.bed{
+.desk{
     position: absolute;
     width: 500px;
     height: 500px;
@@ -26,6 +26,21 @@ body{
     top: 20%;
     right: 20%;
 }
+
+.lamp{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 80%;
+}
+
+.bin{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 25%;
+}
+
 
 .calendar{
     position: absolute;

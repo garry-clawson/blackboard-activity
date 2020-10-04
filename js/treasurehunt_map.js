@@ -3,34 +3,40 @@ window.onload = roomsComplete;
 
 function roomsComplete() {
            
-            var timetable_room1 = localStorage.getItem("timetable_room1");
-            var timetable_room2 = localStorage.getItem("timetable_room2");
-            var timetable_room3 = localStorage.getItem("timetable_room3");
-            var timetable_room4 = localStorage.getItem("timetable_room4");
+            var hunt_room1 = localStorage.getItem("hunt_room1");
+            var hunt_room2 = localStorage.getItem("hunt_room2");
+            var hunt_room3 = localStorage.getItem("hunt_room3");
+            var hunt_room4 = localStorage.getItem("hunt_room4");
+            var hunt_room5 = localStorage.getItem("hunt_room5");
 
-            if(timetable_room1 == 'complete')
+            if(hunt_room1 == 'complete')
             {
                 document.getElementById("imglock1").src = "assets/unlock.png";
             }
 
-            if(timetable_room2 == 'complete')
+            if(hunt_room2 == 'complete')
             {
                 document.getElementById("imglock2").src = "assets/unlock.png";
             }
 
-            if(timetable_room3 == 'complete')
+            if(hunt_room3 == 'complete')
             {
                 document.getElementById("imglock3").src = "assets/unlock.png";
             }
 
-            if(timetable_room4 == 'complete')
+            if(hunt_room4 == 'complete')
             {
                 document.getElementById("imglock4").src = "assets/unlock.png";
             }
 
+             if(hunt_room5 == 'complete')
+            {
+                document.getElementById("imglock5").src = "assets/unlock.png";
+            }
+
             // //Shows room lock as green if all tasks have been completed
             // if(room1 == 'complete' && room2 == 'complete' && room3 == 'complete' && room4 == 'complete'){
-            if(timetable_room1 == 'complete'){
+            if(hunt_room1 == 'complete'){
                 localStorage.setItem("timetable", "complete");
             }
         }
@@ -39,11 +45,12 @@ function roomsComplete() {
 //clears the locks form local storage
 function clearLocks() {
 
-localStorage.removeItem("timetable_room1");
-localStorage.removeItem("timetable_room2");
-localStorage.removeItem("timetable_room3");
-localStorage.removeItem("timetable_room4");
-localStorage.removeItem("timetable");
+localStorage.removeItem("hunt_room1");
+localStorage.removeItem("hunt_room2");
+localStorage.removeItem("hunt_room3");
+localStorage.removeItem("hunt_room4");
+localStorage.removeItem("hunt_room5");
+localStorage.removeItem("hunt");
 
 location.reload();
 return false;
@@ -65,24 +72,29 @@ $(".closeBtn").click(function(){
 
 
 //Links for activities
-function displayClock() {
+function displayTask1() {
 
-    document.getElementById("results").textContent = "Task 2: Always check me!"
+    document.getElementById("results").textContent = "Task 1: Hint"
 }
 
-function displayCalendar() {
+function displayTask2() {
 
-    document.getElementById("results").textContent = "Task 3: You'll need this!"
+    document.getElementById("results").textContent = "Task 2: Hint"
 }
 
-function displayTable() {
+function displayTask3() {
 
-    document.getElementById("results").textContent = "Task 4: Table Hint:"
+    document.getElementById("results").textContent = "Task 3: Hint"
 }
 
-function displayCupboard() {
+function displayTask4() {
 
-    document.getElementById("results").textContent = "Task 1: You'll need to look closely!"
+    document.getElementById("results").textContent = "Task 4:Hint"
+}
+
+function displayTask5() {
+
+    document.getElementById("results").textContent = "Task 5: Hint"
 }
 
 function displayBin() {
