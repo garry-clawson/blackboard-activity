@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="css/room3_map.css">
+	<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+
+	<title>Map</title>
+
+</head>
+
+
+<body> 
+
+<a href="index.html"><img src="assets/home.png" style="float: right; width: 40px; height: auto;"></a>
+
+<div class="completedOverlay">
+    
+    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/yh83bxQ5sLY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <img class="closeBtn" src="assets/cancel.png" style="width:30px; height:30px;">
+</div>
+
+
+<div id="introduction">
+
+<div class="message"><b>How well do you already know Blackboard?.</b>
+
+       <div class="lock">
+            <div class="lockcontainer">
+                <div id="lock1"><img id="imglock1" src="assets/lock.png" style=" width: 40px; height: auto;"></div>
+            </div>
+            <div class="lockcontainer">
+                <div id="lock2"><img id="imglock2" src="assets/lock.png" style=" width: 40px; height: auto;"></div>
+            </div>
+            <div class="lockcontainer">
+                <div id="lock3"><img id="imglock3" src="assets/lock.png" style=" width: 40px; height: auto;"></div>
+            </div>
+            <div class="lockcontainer">
+                <div id="lock4"><img id="imglock4" src="assets/lock.png" style=" width: 40px; height: auto;"></div>
+            </div>
+            <div class="lockcontainer">
+                <div id="lock5"><img id="imglock5" src="assets/lock.png" style=" width: 40px; height: auto;"></div>
+            </div>
+        </div>
+</div>
+
+    <div class="computer">
+        <div class="screen">
+            <a href="index.html"><img src="assets/uol-logo.png" alt="uol-logo" class="logo" style="max-height: 150px; max-width: 150px;" class="clearlocks" onclick="clearLocks();" onMouseover="displayBin()"></a>
+        </div>
+            <div class="icon"></div>
+            <div class="name" onclick="room1.html"></div>
+                <a href="rm3_task1.html"><div class="name" onMouseover="displayName();"></div></a>
+                <a href="rm3_task2.html"><div class="tabs" onMouseover="displaytabs();"></div></a>
+                <a href="rm3_task3.html"><div class="myuni" onMouseover="displaymyuni();"></div></a>
+                <a href="rm3_task4.html"><div class="frequentlinks" onMouseover="displayfrequentlinks();"></div></a>
+                <a href="rm3_task5.html"><div class="mysite" onMouseover="displaymysite();"></div></a>
+    </div>
+
+ <div id="results"><p></p></div>
+
+
+
+</div>
+
+
+</body>
+
+
+<script src = "js/room3_map.js"></script>
+  
+
+
+</script>
+
+</html>

@@ -39,7 +39,7 @@ function roomsComplete() {
 
             if(room3 == 'complete')
             {
-                document.getElementById("room3_lock").src = "assets/unlock.png";
+                document.getElementById("room3_lock").src = "assets/closed.png";
             }
 
             // if(room4 == 'complete')
