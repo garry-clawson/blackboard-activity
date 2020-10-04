@@ -3,41 +3,36 @@ window.onload = roomsComplete;
 
 function roomsComplete() {
            
-            var hunt_room1 = localStorage.getItem("hunt_room1");
-            var hunt_room2 = localStorage.getItem("hunt_room2");
-            var hunt_room3 = localStorage.getItem("hunt_room3");
-            var hunt_room4 = localStorage.getItem("hunt_room4");
-            var hunt_room5 = localStorage.getItem("hunt_room5");
+            var rm2_task1 = localStorage.getItem("rm2_task1");
+            var rm2_task2 = localStorage.getItem("rm2_task2");
+            var rm2_task3 = localStorage.getItem("rm2_task3");
+            var rm2_task4 = localStorage.getItem("rm2_task4");
 
-            if(hunt_room1 == 'complete')
+            if(rm2_task1 == 'complete')
             {
                 document.getElementById("imglock1").src = "assets/unlock.png";
             }
 
-            if(hunt_room2 == 'complete')
+            if(rm2_task2 == 'complete')
             {
                 document.getElementById("imglock2").src = "assets/unlock.png";
             }
 
-            if(hunt_room3 == 'complete')
+            if(rm2_task3 == 'complete')
             {
                 document.getElementById("imglock3").src = "assets/unlock.png";
             }
 
-            if(hunt_room4 == 'complete')
+            if(rm2_task4 == 'complete')
             {
                 document.getElementById("imglock4").src = "assets/unlock.png";
             }
 
-             if(hunt_room5 == 'complete')
-            {
-                document.getElementById("imglock5").src = "assets/unlock.png";
-            }
 
             // //Shows room lock as green if all tasks have been completed
             // if(room1 == 'complete' && room2 == 'complete' && room3 == 'complete' && room4 == 'complete'){
-            if(hunt_room1 == 'complete'){
-                localStorage.setItem("timetable", "complete");
+            if(rm2_task1 == 'complete'){
+                localStorage.setItem("room2", "complete");
             }
         }
 
@@ -45,12 +40,11 @@ function roomsComplete() {
 //clears the locks form local storage
 function clearLocks() {
 
-localStorage.removeItem("hunt_room1");
-localStorage.removeItem("hunt_room2");
-localStorage.removeItem("hunt_room3");
-localStorage.removeItem("hunt_room4");
-localStorage.removeItem("hunt_room5");
-localStorage.removeItem("hunt");
+localStorage.removeItem("rm2_task1");
+localStorage.removeItem("rm2_task2");
+localStorage.removeItem("rm2_task3");
+localStorage.removeItem("rm2_task4");
+localStorage.removeItem("room2");
 
 location.reload();
 return false;
