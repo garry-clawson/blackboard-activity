@@ -67,25 +67,25 @@ $(".closeBtn").click(function(){
 //Links for activities
 function displayClock() {
 
-    document.getElementById("results").textContent = "Task 2: Always check me!"
+    document.getElementById("results").textContent = "Task 2: Eleven important widgets!"
 }
 
 function displayCalendar() {
 
-    document.getElementById("results").textContent = "Task 3: You'll need this!"
+    document.getElementById("results").textContent = "Task 3: A great area for sharing and collecting!"
 }
 
 function displayTable() {
 
-    document.getElementById("results").textContent = "Task 4: Table Hint:"
+    document.getElementById("results").textContent = "Task 4: Helpsheets galore!"
 }
 
 function displayCupboard() {
 
-    document.getElementById("results").textContent = "Task 1: You'll need to look closely!"
+    document.getElementById("results").textContent = "Task 1: First time here?"
 }
 
 function displayBin() {
 
-    document.getElementById("results").textContent = "WARNING: Clicking this will restart the game"
+    document.getElementById("results").textContent = "WARNING: Clicking this will restart the game!"
 }

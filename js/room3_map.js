@@ -91,32 +91,33 @@ $(".closeBtn").click(function(){
 //Useful links to activties
 function displayName() {
 
-    document.getElementById("results").textContent = "Puzzle 1: Tick tock Tick tock!"
+    document.getElementById("results").textContent = "Puzzle 1: Announcements - lecturers release updates about their module!"
 
 }
 
 function displaytabs() {
 
-    document.getElementById("results").textContent = "Puzzle 2: When handing in submissions into Turnitin, please check that it is in .pdf format! "
+    document.getElementById("results").textContent = "Puzzle 2: About this module - a module overview outlining the syllabus! "
 
 }
 
 function displaymyuni() {
 
-    document.getElementById("results").textContent = "Puzzle 3: These tabs offer you support and will help you through your university career!"
+    document.getElementById("results").textContent = "Puzzle 3: Staff details - staff email and office hours!"
 
 }
 
 
 function displayfrequentlinks() {
 
-    document.getElementById("results").textContent = "Puzzle 4: Don't forget to check your emails each day, so you don't miss out on any opportunity!"
+    document.getElementById("results").textContent = "Puzzle 4: Study materials - week by week breakdown of lecture materials!"
 
 }
 
 function displaymysite() {
 
-    document.getElementById("results").textContent = "Puzzle 5: Within each module page, there is an About this Module tab, which outlines what you will be doing!"
+    document.getElementById("results").textContent = "Puzzle 5: Asessments - download the assessment brief and upload into turnitin!"
+    document.getElementById("results").textContent = "Puzzle 5: Asessments - download the assessment brief and upload into turnitin!"
 
 }
 
