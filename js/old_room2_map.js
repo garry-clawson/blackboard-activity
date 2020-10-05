@@ -68,22 +68,22 @@ $(".closeBtn").click(function(){
 //Links for activities
 function displayTask1() {
 
-    document.getElementById("results").textContent = "Task 1: Remeber to check your timetable, as your lecturers & admin staff can alter it!"
+    document.getElementById("results").textContent = "Task 1: Hint"
 }
 
 function displayTask2() {
 
-    document.getElementById("results").textContent = "Task 2: Emails are a great way to get in contact with your lecturers!"
+    document.getElementById("results").textContent = "Task 2: Hint"
 }
 
 function displayTask3() {
 
-    document.getElementById("results").textContent = "Task 3: The library offers a variety of Learning Development Services for you to learn from!"
+    document.getElementById("results").textContent = "Task 3: Hint"
 }
 
 function displayTask4() {
 
-    document.getElementById("results").textContent = "Task 4: By clicking on the charts you can find more about how your attendance is analysed! "
+    document.getElementById("results").textContent = "Task 4:Hint"
 }
 
 function displayTask5() {
