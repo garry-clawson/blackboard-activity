@@ -126,7 +126,7 @@ div.question {
 }
 
 #results{
-
+  position: absolute;
   line-height: 2;
   text-align: center;
   bottom: 15%;
@@ -139,18 +139,4 @@ div.question {
   font-weight: bold;
   z-index: 5;
   font-size: 20px;
- margin-top: 40%;
- margin-left:5%;
-}
-
-#quote {
-
-  color:#fff;
-  font-family: 'Major Mono Display', monospace;
-  font-weight: bold;
-  font-size:25px;
-  margin-top:10px;
-  text-align:center;
-  cursor:auto;
-  line-height:2;
 }
