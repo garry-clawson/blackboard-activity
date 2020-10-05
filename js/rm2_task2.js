@@ -61,9 +61,9 @@ $(document).ready(function() {
             w++
           }
           if ( w == 8 ) {
-             $("#alert").html("QUESTION: True or False: Do you use the same login credentials to access both Blackboard and your Emails?");
+             $("#alert").html("QUESTION: True or False, do you use the same login details to access both Blackboard and your Emails?");
           } else {
-             $("#alert").html("Sorry please try again!");
+             $("#alert").html("Try again! Make sure they are in the middle, and click on them in order");
           }
         });
       }

@@ -154,3 +154,15 @@ div.question {
   cursor:auto;
   line-height:2;
 }
+
+#quote {
+  position: relative;
+  color:#fff;
+  font-family: 'Major Mono Display', monospace;
+  font-weight: bold;
+  font-size:25px;
+  margin-top:10px;
+  text-align:center;
+  cursor:auto;
+  line-height:2;
+}

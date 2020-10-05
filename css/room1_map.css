@@ -57,7 +57,7 @@ body{
 
 
 #results{
-  position: absolute;
+margin-left:4%;
   line-height: 2;
   text-align: center;
   bottom: 15%;
