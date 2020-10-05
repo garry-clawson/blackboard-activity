@@ -140,15 +140,3 @@ div.question {
   z-index: 5;
   font-size: 20px;
 }
-
-#quote {
-  position: relative;
-  color:#fff;
-  font-family: 'Major Mono Display', monospace;
-  font-weight: bold;
-  font-size:25px;
-  margin-top:10px;
-  text-align:center;
-  cursor:auto;
-  line-height:2;
-}

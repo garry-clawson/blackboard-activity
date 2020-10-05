@@ -31,7 +31,7 @@ $(document).on("mousemove", function (e) {
         $(".lock .ring").removeClass("shake-little");
         if (!$(".lock .stage li.active").length) {
           $(".lock > .fas").removeClass("fa-lock").addClass("fa-lock-open");
-		  document.getElementById("demo").innerHTML = "QUESTION: If you are having trouble logging into Blackboard, what is the email you should contact? CLUE: Click first time here?";
+		  document.getElementById("demo").innerHTML = "Clue: If you are having trouble logging into Blackboard, who should you contact?" ;
         }
       }, 3000);
       timerset = true;
