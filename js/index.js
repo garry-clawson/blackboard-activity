@@ -17,6 +17,18 @@ $('body').on('click', '.door', function(e) {
 
 });
 
+//opens and closes pops ups
+$(".container .trophy").click(function(){
+    $(".completedOverlay").delay(100).fadeIn(100,function(){
+        console.log('animation complete')
+        }
+        );
+});
+$(".closeBtn").click(function(){
+    $(".completedOverlay").fadeOut(100 );
+});
+
+
 
 window.onload = roomsComplete;
 
@@ -50,5 +62,38 @@ function roomsComplete() {
             // //Shows trophy if all tasks have been completed
             // if(room1 == 'complete' && room2 == 'complete' && room3 == 'complete' && room4 == 'complete'){
 
+            // //Shows trophy if all tasks have been completed
+            if(room1 == 'complete' && room2 == 'complete' && room3 == 'complete'){
+                document.getElementById("trophy").style.visibility = "visible";
+                document.getElementById("results").textContent = "Congrats! Click the trophy to reveal your prize!"
+            }
+
         }
 
+//clears the locks form local storage
+function clearLocks() {
+
+localStorage.removeItem("rm1_task1");
+localStorage.removeItem("rm1_task2");
+localStorage.removeItem("rm1_task3");
+localStorage.removeItem("rm1_task4");
+localStorage.removeItem("rm1_task5");
+localStorage.removeItem("room1");
+
+localStorage.removeItem("rm2_task1");
+localStorage.removeItem("rm2_task2");
+localStorage.removeItem("rm2_task3");
+localStorage.removeItem("rm2_task4");
+localStorage.removeItem("rm2_task5");
+localStorage.removeItem("room2");
+
+localStorage.removeItem("rm3_task1");
+localStorage.removeItem("rm3_task2");
+localStorage.removeItem("rm3_task3");
+localStorage.removeItem("rm3_task4");
+localStorage.removeItem("rm3_task5");
+localStorage.removeItem("room3");
+
+location.reload();
+return false;
+}
