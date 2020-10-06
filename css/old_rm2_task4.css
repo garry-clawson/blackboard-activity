@@ -126,29 +126,17 @@ div.question {
 }
 
 #results{
+  position: absolute;
   line-height: 2;
   text-align: center;
-  top: 90%;
-  left: 15%;
-  right: 15%;
-  width: 70%;
+  bottom: 15%;
+  left: 5%;
+  right: 5%;
+  width: 90%;
   color: white;
   display: inline-block;
   font-family: 'Major Mono Display', monospace;
   font-weight: bold;
   z-index: 5;
   font-size: 20px;
-
-}
-
-#quote {
-
-  color:#fff;
-  font-family: 'Major Mono Display', monospace;
-  font-weight: bold;
-  font-size:25px;
-  margin-top:10px;
-  text-align:center;
-  cursor:auto;
-  line-height:2;
 }

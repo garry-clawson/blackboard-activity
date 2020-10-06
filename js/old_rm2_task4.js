@@ -170,7 +170,7 @@ function timer() {
         //localStorage.setItem("monstersCaught", monstersCaught);
 
         if (monstersCaught > 6) { //number of monstors caught in the game
-          var txt = "QUESTION: On the attendance page, who should you contact if you have an inquiry about an absence?"; 
+          var txt = "On the attendance page, who should you contact if you have an inquiry about an absence."; 
           document.getElementById("results").innerHTML = txt; //write to html tag if the player scores highets score      
         }
 
