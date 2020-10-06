@@ -78,7 +78,10 @@ function score_quiz()
   } 
   else{
         document.getElementById('answer1').style.backgroundColor = "green"; //when answer is correct turn green
-    localStorage.setItem("rm1task1", "complete"); 
+        var wellDone; //sets the variable for the text output
+        wellDone = "Well done! You've completed this task!";
+        document.getElementById("results").innerHTML = wellDone; //inserts 'text' into the yourscore ID eleme
+        localStorage.setItem("rm1task1", "complete"); 
 
   }
 } 
